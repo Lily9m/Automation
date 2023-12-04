@@ -1,0 +1,10 @@
+go run 02_auto_generate_random_data.go
+py Script_sales.py
+
+$ pip install pyodbc pandas
+
+$ go mod init hello
+go mod tidy
+$ echo "ProductID,ProductName,Price,Quantity,Total,Discount,Tax,Shipping,Profit,StaffName,OrderDate0" | tr "," "\n"
+$ echo "ProductID,ProductName,Price,Quantity,Total,Discount,Tax,Shipping,Profit,StaffName,OrderDate" | tr "," "\n"
+$ echo "ProductID,ProductName,Price,Quantity,Total,Discount,Tax,Shipping,Profit,StaffName,OrderDate" | tr "," "\n" | wc -l
