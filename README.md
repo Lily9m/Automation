@@ -1,4 +1,4 @@
-# ETL_Practice
+# ETL_Practice on incremental records
 
 The go.mod and go.sum files are responsible for generating random data that populates the sales_data.csv file.
 The SALESABC.sql script creates a table and loads data into it. Additionally, it includes a step to load newly inserted records.
